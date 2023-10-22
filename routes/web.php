@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 /*Route::get('/productos', function () {
-    return "Hola Mundo";
+    return "Hola Mundo desde proyecto laravel";
 });*/
 
 Route::get('/productos', [App\Http\Controllers\productosController::class, 'index']);
