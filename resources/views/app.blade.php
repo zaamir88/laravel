@@ -7,7 +7,7 @@
     <title>App Name - @yield('title')</title>
 </head>
 <body>
-    
+    <!-- se copio de bootstrap -->
     @section('sidebar')
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
